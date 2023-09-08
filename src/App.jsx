@@ -4,6 +4,7 @@
 import './App.css'
 import Counter from './Counter';
 import Friends from './Friends';
+import Posts from './Posts';
 import Team from './Team';
 import User from './User';
 
@@ -25,6 +26,7 @@ function App() {
        <Team></Team>
        <User></User>
        <Friends></Friends>
+       <Posts></Posts>
 
       <button onClick={handleClick}>Click Me</button>
       <button onClick={() => { alert('Click the button') }}>Click inside</button>
